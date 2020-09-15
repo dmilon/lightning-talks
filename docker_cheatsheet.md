@@ -1,5 +1,5 @@
 Build an image from current directory
-`docker build .`
+`docker build -t my-image .`
 
 Create a new container from an image with interactive shell
 `docker run -it image_id`
