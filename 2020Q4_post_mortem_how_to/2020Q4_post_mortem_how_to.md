@@ -6,39 +6,53 @@ img[alt~="center"] {
 </style>
 
 # What is a Software Post-Mortem and How Do You Write One?
+
+## The Career Form Revamp Post-Mortem
+
 ___
-## What is a post-mortem?
 
-Why did we start a post-mortem / Why are we even talking about a post-mortem? The need to use a post-mortem typically occurs when a release went "bad" (not as good as the team would have wanted).
+# Why?
 
-A post-mortem is where a team reflects on what went wrong with something they did, and documents it or amends their process to stop it from happening again.
+- The roller coaster of our Career Form Revamp 😱
 
-Post-mortems ARE NOT to assign blame on people but to find process failures
+___
 
-We want to learn every single lesson we can from the outages and emergencies to ensure they never happen again. Nothing is more valuable than experience.
+# What is a post-mortem?
 
-Example: [https://googleblog.blogspot.com/2009/01/this-site-may-harm-your-computer-on.html](https://googleblog.blogspot.com/2009/01/this-site-may-harm-your-computer-on.html)
+- A reflection on why a release went "bad" 😨
+- A template to document the event 🤔
+- A framework to learn from every experience 🥳
 
-## Dos & Donts
+Example: [Google - `/` was checked into the URL blacklist, causing every URL to show a warning.](https://googleblog.blogspot.com/2009/01/this-site-may-harm-your-computer-on.html)
 
-- Don't blame people, teams, organisations or users but focus on processes.
-- Don't overestimate the predictability of past events (Hindsight bias)
-- Dig deep to the bottom of the error and ask yourself what process could have avoided it
-- Analyse the resolution process and make them actionable
-- Focus on what can be done in the short term so we can avoid the error to happen again ASAP
-- Let your post-mortem challenge what your team currently believes to be true. Don't assume because everyone believes something to be true that it is (Common belief fallacy) [https://en.wikipedia.org/wiki/Argumentum_ad_populum](https://en.wikipedia.org/wiki/Argumentum_ad_populum)
+
+___
+
+# Dos & Donts
+
+## DONTS
+- Don't blame people, focus on processes
+- Don't overestimate the predictability of past events (**Hindsight bias**)
+
+## DO
+- Dig deep to understand the error 
+- Find a process that could have solved the error
+- Make it actionable
+- Let the post-mortem challenge our team's beliefs (**Common belief fallacy**) 
 - Use a post-mortem template
 
-## What are the key points of a post-mortem template?
+___
 
-Put headings of the template as bullet points.
 
-## An example: the career survey on `forms` post-mortem
+# An example: Our Career Form Revamp Post-Mortem
+[Our Notion](https://www.notion.so/Career-Survey-on-forms-Release-71c0726192434416b64ff602f1efabb7#41d34d47d76e4cc0ae38f4cbbb23e467)
+___
 
 ## Resources
 
-[https://www.freecodecamp.org/news/what-is-a-software-post-mortem/](https://www.freecodecamp.org/news/what-is-a-software-post-mortem/)
+- [https://www.freecodecamp.org/news/what-is-a-software-post-mortem/](https://www.freecodecamp.org/news/what-is-a-software-post-mortem/)
+- [A list of popular post-mortems](https://github.com/danluu/post-mortems)
 
-[https://github.com/danluu/post-mortems](https://github.com/danluu/post-mortems)
+___
 
 # Thank you!
